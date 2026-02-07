@@ -86,3 +86,31 @@ ScrollReveal().reveal(".journey__grid > div > div",{
 
 // project 
 const mixer = mixitup(".portfolio__grid");
+
+
+ScrollReveal().reveal(".banner__content .section__header",{
+  ...scrollRevealOption,
+
+})
+
+ScrollReveal().reveal(".banner__content p",{
+  ...scrollRevealOption,
+  delay:500,
+})
+ScrollReveal().reveal(".banner__btn",{
+  ...scrollRevealOption,
+  delay:1000,
+})
+
+
+ const swiper = new Swiper(".swiper", {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+  
+  });
