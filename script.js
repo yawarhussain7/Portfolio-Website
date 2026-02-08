@@ -114,3 +114,9 @@ ScrollReveal().reveal(".banner__btn",{
 
   
   });
+
+  // blog 
+ScrollReveal().reveal(".blog__card",{
+  ...scrollRevealOption,
+  interval:500,
+})
